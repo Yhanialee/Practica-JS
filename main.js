@@ -21,10 +21,12 @@ function mostrarAsistentes(){
   asistentes.forEach((asistente, index) => {
     const parrafo = document.createElement("p");
     parrafo.textContent = asistente;
+    parrafo.classList.add("parrafo");
 
   
     const botonEliminar = document.createElement("button");
     botonEliminar.textContent = "Eliminar";
+    botonEliminar.classList.add("botonEliminar")
     botonEliminar.onclick = () => {
       asistentes.splice(index, 1); 
       mostrarAsistentes(); 
