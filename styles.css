@@ -1,0 +1,61 @@
+#botonAgregar {
+    background-color: #4CAF50; 
+    color: white;              
+    padding: 10px 20px;        
+    border: none;            
+    border-radius: 5px;        
+    cursor: pointer;          
+    font-size: 16px;           
+    transition: background-color 0.3s ease; 
+}
+
+
+#botonAgregar:hover {
+    background-color: #0d4110; 
+}
+
+
+#botonAgregar:active {
+    background-color: #023106; 
+}
+
+body{
+
+    background-color: rgb(247, 240, 240);
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.botonEliminar {
+    background-color: rgb(224, 52, 52);
+    color: white;              
+    padding: 10px 20px;        
+    border: none;            
+    border-radius: 5px;        
+    cursor: pointer; 
+
+
+}
+
+.asistente-item {
+    font-size: 18px;
+    margin: 10px 0; /* Espacio entre cada línea */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde alrededor de cada línea */
+    border-radius: 5px; /* Esquinas redondeadas */
+    display: flex; /* Para alinear texto y botón en la misma línea */
+    justify-content: space-between; /* Espacio entre el nombre y el botón */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+.boton-eliminar {
+    background-color: #e74c3c; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+  }
+
